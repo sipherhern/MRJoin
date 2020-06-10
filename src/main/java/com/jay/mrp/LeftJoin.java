@@ -27,7 +27,7 @@ import java.util.LinkedList;
 
 public class LeftJoin {
     public static final String DELIMITER_SPACE = " ";
-
+    // add logger again
     public static void main(String[] args) throws IOException,ClassNotFoundException,InterruptedException{
         Configuration conf = new Configuration();
         String[] otherArgs = new GenericOptionsParser(conf, args).getRemainingArgs();
